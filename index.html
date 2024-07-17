@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-areas:
+            "img1 img1 img2 img3"
+            "img1 img1 img4 img3"
+            "img7 img5 img4 img6"
+            "img7 img8 img8 img6";
+            width: 60%;
+        } 
+        img{
+            width: 100%;
+              height: 100%;
+              border: 5px crimson solid;
+        }
+        .item1{
+            grid-area: img1;
+        }
+        .item2{
+            grid-area: img2;
+        }
+        .item3{
+            grid-area: img3;
+        }
+        .item4{
+            grid-area: img4;
+        }
+        .item5{
+            grid-area: img5;
+        }
+        .item6{
+            grid-area: img6;
+        }
+        .item7{
+            grid-area: img7;
+        }
+        .item8{
+            grid-area: img8;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <img class="item1"src="https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg" alt="img">
+        <img class="item2" src="https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.jpg?s=612x612&w=0&k=20&c=UHeb1pGOw6ozr6utsenXHhV19vW6oiPIxDqhKCS2Llk=" alt="">
+        <img class="item3"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGK3diR3Zi-mnOXEaj-3ewmFyRYVxGzVzZw&s" alt="">
+        <img class="item4"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIWSPkmMT6RX_5IvnBRmmaoO7MqeohVn0kTj1dXc3H-KxhtfX_s4nsgWkWr3YpsF2Rw0c&usqp=CAU" alt="">
+        <img class="item5"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEkA9gblpiJEJfpBwChxch8UVTI4VkPKpkSA&s" alt="">
+        <img class="item6"src="https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg" alt="img">
+        <img class="item7"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTK500IQ_2NpiNk7Ed_4phbWDtLSZ7QGWuNA&s" alt="">
+        <img class="item8"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg1Qcz_jL29QVI7sXkNtbJ-AGM_XAhHFNEPA&s" alt="">
+        <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkGLtZgjllhdhJUi8EjTdnq-0cOgB_7htCcg&s" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP4SPm_7JYOz4firDmPHDZGrUxVqcumPWtdQ&s" alt="">  -->
+    </div>
+</body>
+</html>
